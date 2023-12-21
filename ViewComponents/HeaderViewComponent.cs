@@ -18,5 +18,4 @@ public class HeaderViewComponent : ViewComponent
         Dictionary<string, Setting> setting = await _context.Settings.ToDictionaryAsync(x => x.Key);
         return View(setting);
     }
-
 }

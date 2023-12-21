@@ -9,3 +9,4 @@ public class LoginVM
     [DataType(DataType.Password)]
     public string Password { get; set; } = null!;
 }
+

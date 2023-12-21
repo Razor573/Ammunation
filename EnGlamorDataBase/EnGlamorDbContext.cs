@@ -33,5 +33,4 @@ public class EnGlamorDbContext : IdentityDbContext<AppUser>
             .HasKey(m => m.Id);
     }
 
-
 }
